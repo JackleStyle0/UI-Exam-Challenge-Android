@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--    shadow -->
     <item>
         <shape android:shape="rectangle">
             <padding
@@ -44,6 +45,18 @@
                 android:topLeftRadius="16dp" />
         </shape>
     </item>
+
+    <item>
+        <shape android:shape="rectangle">
+            <padding
+                android:right="1dp" />
+            <solid android:color="#30C4C4C4" />
+            <corners
+                android:bottomLeftRadius="16dp"
+                android:topLeftRadius="16dp" />
+        </shape>
+    </item>
+    <!--    shadow -->
 
     <item>
         <shape android:shape="rectangle">
